@@ -7,6 +7,8 @@ let d = 01357; //numero octal
 let e = 0x1357; //numero hexadecimal
 
 
+/* alert hace aparecer una ventana o cuadro emergente,
+ también llamado ‘pop-up’, donde podemos incluir un mensaje.*/
 
 alert("el numero entero es "  + a);
 alert("el numero decimal es "  + b);
