@@ -45,7 +45,7 @@ las dos condiciones */
   //comprueba que incluya la palabra suarez o suárez
   if(resMin.includes("suarez")||resMin.includes("suárez")){
      
-    alert("Te falta el apellido o lo has escrito mal ");
+    alert("Te falta el nombre o lo has escrito mal ");
 
   }
 
