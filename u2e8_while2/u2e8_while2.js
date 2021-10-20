@@ -30,20 +30,20 @@ las dos condiciones */
   }
 
 
-  if(resMin == "adolfo suárez"){
+  else if(resMin == "adolfo suárez"){
 
     cambioBooleano = false;
   }
 
   //comprueba que incluya la palabra adolfo 
-  if(resMin.includes("adolfo")){
+  else if(resMin.includes("adolfo")){
      
     alert("Te falta el apellido o lo has escrito mal ");
 
   }
 
   //comprueba que incluya la palabra suarez o suárez
-  if(resMin.includes("suarez")||resMin.includes("suárez")){
+  else if(resMin.includes("suarez")||resMin.includes("suárez")){
      
     alert("Te falta el nombre o lo has escrito mal ");
 
