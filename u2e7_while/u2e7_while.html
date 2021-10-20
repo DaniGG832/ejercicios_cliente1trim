@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>u2e7_while</title>
+</head>
+<body>
+ <script>
+   'use strict' 
+
+   // creamos una variable booleana y la iniciamos a true  
+   let cambioBooleano = true;
+
+do {
+  
+  // le pedimos al usuario que introduzca un dato 
+  let respuesta = prompt ("Escriba el primer apellido del primer presidente de la democracia");
+
+  // pasamos ese dato a minusculas 
+  let resMin= respuesta.toLocaleLowerCase();
+
+  // imprimimos en consola la respuesta del usuario *
+  console.log(resMin);
+
+/* creamos un if para poder cambiar la bariable booleana en el caso que se cumpla
+las dos condiciones */  
+
+  if (resMin == "suarez") {
+
+    cambioBooleano = false;
+  }
+  else if(resMin == "suárez"){
+
+    cambioBooleano = false;
+  }
+
+
+
+} while (cambioBooleano);
+   
+// esto es fuera del bucle, una vez que se ha saltado el control parental
+ document.write("<h2> Se ha superado el control parental<h2>")
+ 
+ 
+ </script>
+</body>
+</html>
