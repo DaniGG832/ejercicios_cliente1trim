@@ -11,13 +11,18 @@
    'use strict'
  
    
+   // el primer for recorre de 9 a 21 que son las horas
  
    for(let i = 9; i<22 ; i++){
+    // el segundo for recorre los minutos de 5 en 5 minutos
     for (let j = 0; j <60; j+=5) {
+
+      // en caso que j sea menor que 10, añade un 0 delante
       if (j<10) {
 
         document.write("<p>"+ i +":0"+j+"<p>");
       }
+      // en caso contrario añade los dos digitos
       else{
 
         document.write("<p>"+i +":"+j+"<p>");
